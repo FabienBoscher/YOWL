@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background-color: rgb(243, 235, 235)
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-color: #f7fafc;
+  }
+
+  50% {
+    background-color: #e2e8f0;
+  }
+
+  100% {
+    background-color: #c3c8cc
+  }
+}
+
+.animate-gradient {
+  animation: gradientBackground 5s infinite alternate;
+}
